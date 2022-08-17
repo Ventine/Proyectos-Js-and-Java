@@ -1,0 +1,30 @@
+.Tarea-Formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarea-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid salmon;
+    outline: none;
+}
+
+.tarea-boton{
+    padding: 16px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(43, 126, 126);
+    color: antiquewhite;
+    text-transform: capitalize;
+
+}

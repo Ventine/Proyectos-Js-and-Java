@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: #c6ffdd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+.logo-contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.logo{
+    height: 50px;
+    height: 150px;
+}
+
+.contenedor-principal{
+    height: 600px;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

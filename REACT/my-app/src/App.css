@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.loader{
+  margin-top: 125px;
+  margin-left: 570px;
+  width: 250px;
+  height: 225px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.loader span{
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+span{
+  color: rgb(52, 163, 163);
+
+}
+
+.ball{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(52, 163, 163);
+  animation: bounce .5s alternate infinite;
+}
+
+.ball:nth-last-child(2){
+  animation-delay: .16s;
+}
+
+.ball:nth-last-child(3){
+  animation-delay: .32s;
+}
+
+@keyframes bounce {
+  from{
+    transform: scaleX(1.25);
+  }
+  to{
+    transform: translateY(-50px) scaleX(1);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
